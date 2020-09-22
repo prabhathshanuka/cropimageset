@@ -40,7 +40,7 @@ def imagecrop():
 #this is where your image files located 	
 path = "C:/Users/shanuka/Desktop/java\*.*"
 for file in glob.glob(path):
-    x = str(input("Enter a number: "))
+    x = str(input("Enter a number or name: "))
     a= cv2.imread(file)
     imagecrop()
     k = cv2.waitKey(100)
